@@ -5,7 +5,7 @@ function Alert(props) {
   return (
     <div className={styles.alert}>
       <Info/>
-      {props.text}
+      <p>{props.text}</p>
     </div>
   );
 }
