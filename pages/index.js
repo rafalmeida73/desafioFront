@@ -17,7 +17,7 @@ export default function Home(props) {
   const [street, setStreet] = useState('');
 
   const onSubmit = data => {
-    if (data.zipcode.indexOf('_')) {
+    if (data.zipcode.indexOf('_') > -1) {
       setResult(false);
       setError(true);
       setErrorMessage("CEP incompleto. Digite 8 números!")
