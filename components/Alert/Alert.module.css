@@ -1,0 +1,13 @@
+.alert {
+  display: flex;
+  width: 80vw;
+  margin-bottom: 2%;
+  padding: 10px;
+  color: rgb(97, 26, 21);
+  background-color: rgb(253, 236, 234);
+}
+
+.alert svg{
+  color: #f44336;
+  margin-right: 10px;
+}
